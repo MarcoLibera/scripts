@@ -1,3 +1,9 @@
+"""
+This script fetches the suburbs and dates for upcoming kerbside collections
+in Brisbane. It gets this information from a public API which I found in
+the source code for the Brisbane City Council website.
+"""
+
 import requests
 import json
 from datetime import datetime
